@@ -1,0 +1,14 @@
+[package]
+name = "analyzer"
+version = "0.1.0"
+authors = ["ChaseElectr <295872776@qq.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+diesel = "1.4.3"
+
+[replace]
+"diesel:1.4.3" = { git = "https://github.com/ChaseElectr/diesel", branch = "1.4.x", rev="24af5f" }
+"diesel_derives:1.4.1" = { git = "https://github.com/ChaseElectr/diesel", branch = "1.4.x", rev="066bc4" }
