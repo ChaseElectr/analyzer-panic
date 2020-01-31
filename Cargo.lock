@@ -32,7 +32,7 @@ replace = "diesel 1.4.3 (git+https://github.com/ChaseElectr/diesel?branch=1.4.x)
 [[package]]
 name = "diesel_derives"
 version = "1.4.1"
-source = "git+https://github.com/ChaseElectr/diesel?branch=1.4.x#24af5f700c111c2b995953a40f7a262d0872a00d"
+source = "git+https://github.com/ChaseElectr/diesel?branch=1.4.x#066bc412d7ead423e71de811b1dac9428a63712c"
 dependencies = [
  "proc-macro2",
  "quote",
